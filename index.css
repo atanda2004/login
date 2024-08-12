@@ -1,0 +1,89 @@
+body{
+  height: 100vh;
+  background-image: linear-gradient(white,white 0%,purple 25%,purple 50%,purple 100%);
+  display: flex; 
+  margin: 0;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.container1{
+    flex: 1;
+    background-color: purple;
+    border-top-right-radius: 200px;
+
+
+
+
+
+}
+.container2{
+    flex:  1;
+    background-color: white;
+    border-bottom-left-radius: 200px;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.box1{
+    display: flex;
+    border:solid rgb(170, 168,168) ;
+    margin-top: 60px;
+    height: 85%;
+    width:50% ;
+    margin-left: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(255, 255,255);
+    box-shadow: 5px 5px 3px 5px white;
+    position: relative;
+     
+
+}
+.box2{
+    display: flex;
+    border:solid rgb(170, 168,168) ;
+    margin-top: 50px;
+    width:100% ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    position: absolute;
+     
+}
+input {
+    margin-left: 100px;
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    border-bottom: 1px purple solid;
+    margin:10px;
+    width:100%;
+    background-color: transparent;
+
+}
+p {
+    margin-left: 50px;
+}
+button{
+    margin-left:50% ;
+    width: 100%;
+    padding: 7px;
+    background-color: purple;
+    border-radius: 5px;
+    margin: 10px;
+}
+.check-box{
+    display: flex;
+    justify-content: space-between 20px;
+}
+
